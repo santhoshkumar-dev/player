@@ -3,6 +3,7 @@ import { computed, signal, type ReadSignal } from 'maverick.js';
 import { isFunction, unwrap } from 'maverick.js/std';
 
 import { useDefaultLayoutContext } from '../../../../../../components/layouts/default/context';
+import { i18n } from '../../../../../../components/layouts/default/translations';
 import type { MenuPlacement } from '../../../../../../components/ui/menu/menu-items';
 import type { TooltipPlacement } from '../../../../../../components/ui/tooltip/tooltip-content';
 import { useMediaContext, useMediaState } from '../../../../../../core/api/media-context';
