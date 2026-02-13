@@ -18,6 +18,7 @@ import { DefaultCaptions } from './ui/captions';
 import { DefaultControlsSpacer } from './ui/controls';
 import { DefaultKeyboardDisplay } from './ui/keyboard-display';
 import { DefaultChaptersMenu } from './ui/menu/chapters-menu';
+import { DefaultQualityMenu } from './ui/menu/quality-menu';
 import { DefaultSettingsMenu } from './ui/menu/settings-menu';
 import { DefaultTimeSlider, DefaultVolumePopup } from './ui/slider';
 import { DefaultTimeInfo } from './ui/time';
@@ -169,6 +170,7 @@ function DefaultVideoMenus() {
 
   return [
     DefaultChaptersMenu({ tooltip: $tooltip, placement: $placement, portal: true }),
+    DefaultQualityMenu({ tooltip: $tooltip, placement: $placement, portal: true }),
     DefaultSettingsMenu({ tooltip: $tooltip, placement: $placement, portal: true }),
   ];
 }
